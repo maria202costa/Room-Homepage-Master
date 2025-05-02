@@ -85,9 +85,10 @@ body {
     }
     .main-section__main__text {
       font-size: $font-size;
-      color: $Dark-gray;
+      color: $Very-dark-gray;
       font-weight: $small-weight;
       line-height: 20px;
+      opacity: 0.8;
     }
     .main-section__main__link {
       color: $Black;
@@ -99,6 +100,9 @@ body {
       margin-top: 10px;
       align-items: center;
       cursor: pointer;
+      width: fit-content;
+      border: none;
+      background-color: transparent;
 
       &:hover {
         opacity: 0.3;
@@ -161,10 +165,11 @@ body {
       text-transform: uppercase;
     }
     .second-section__block__text {
-      color: $Dark-gray;
+      color: $Very-dark-gray;
       font-size: 15px;
       font-weight: $small-weight;
       line-height: 22px;
+      opacity: 0.8;
     }
   }
 }
@@ -527,7 +532,8 @@ body {
 
       .main-section__main-mob__text {
         font-size: 17.3px;
-        color: $Dark-gray;
+        color: $Very-dark-gray;
+        opacity: 0.8;
         font-weight: $small-weight;
         line-height: 23px;
         animation: slideTextMob 2s ease-in-out;
@@ -626,7 +632,8 @@ body {
 
       .main-section__main-mob__text {
         font-size: 17.3px;
-        color: $Dark-gray;
+        color: $Very-dark-gray;
+        opacity: 0.8;
         font-weight: $small-weight;
         line-height: 23px;
         animation: slideTextMob 2s ease-in-out;
@@ -725,7 +732,8 @@ body {
 
       .main-section__main-mob__text {
         font-size: 17.3px;
-        color: $Dark-gray;
+        color: $Very-dark-gray;
+        opacity: 0.8;
         font-weight: $small-weight;
         line-height: 23px;
         animation: slideTextMob 2s ease-in-out;
@@ -772,7 +780,8 @@ body {
         overflow: auto;
       }
       .second-section__block__text {
-        color: $Dark-gray;
+        color: $Very-dark-gray;
+        opacity: 0.8;
         font-size: 15px;
         font-weight: $small-weight;
         line-height: 22px;
